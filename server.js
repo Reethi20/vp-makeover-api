@@ -22,7 +22,7 @@ const transporter = nodemailer.createTransport({
     }
 });
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve('project.html'));
+    res.sendFile(path.resolve('index.html'));
 });
  
 // API Route to Handle Contact Form Submission
